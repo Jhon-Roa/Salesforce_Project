@@ -22,4 +22,8 @@ Se solicito ingresar la siguiente información:
 | Registro Mercantil                        | Matrícula 456789 en la Cámara de Comercio de Bogotá.         |
 | Correo Oficia                             | contacto@construfurgo.com                                    |
 
-Esta fue agregada en el apartado company settings  en setup:
+Los datos anteriores fueron agregados en sus campos correspondientes en company information: 
+
+![](./images/Salesforce_CompanyInformation.png)
+
+​	
