@@ -73,6 +73,12 @@ Para la creación de permisos se creara una combinación entre profiles y permis
 ![](./images/Ver_Reportes.png)
 ![](./images/Ver_DashBoards.png)
 
+**Uso de knowledge:** Debido a que en la aplicacion de salesforce para los usuarios dedicados al soporten(nosotros) y el ceo se creo este permission set
+![](./images/Ver_Knowledge.png)
+
+**Visibilidad de casos:**
+![](./images/Ver_Casos.png)
+
 #### Creacion de permission set groups:
 
 Una vez configurado inicialmente los permission sets estos se asignan a permission set groups los cuales van a corresponder a un rol en el trabajo, cabe destacar que **esta forma de realizar el acceso a permisos fue sacado de lo aprendido en la documentación de SalesForce.**
@@ -91,6 +97,13 @@ Una vez configurado inicialmente los permission sets estos se asignan a permissi
 
 ![](./images/Gerente_Compras_Set_Group.png)
 
+**TechnicalSupport** 
+
+- Se creo el perfil de technical support para hacer su asignacion posible al CEO
+
+![](./images/Technical_Support_Set_Group.png)
+
+
 #### Creación de profiles:
 
 Debido a que la version developer de SalesForce tiene un limite de 4 licencias SalesForce, el usuario encargado es el mismo SystemAdministrator (nosotros), por ende se crearan 3 profiles: ConstruFurgo - CEO, SalesManager y ProcurementSpecialist.
@@ -100,16 +113,17 @@ Debido a que la version developer de SalesForce tiene un limite de 4 licencias S
 **Construfurgo - CEO:** Originalmente pensaba dejar a este usuario con el rol de SystemAdministrator, pero tome la decision de crearle un rol que le diera acceso principalmente a todas las aplicaciones de ConstruFurgo.
 
 A traves de el perfil de CEO se le dio acceso al usuario a la modificacion y visualizacion de reportes y dashboards
-![](./images/CEO_Profile.png)
+![](./images/Profile_CEO.png)
 
 **SalesManager**:  Se le dio al usuario acceso a los dashboards, como parte de los requerimientos
-![](./images/SalesManager_Profile.png)
+![](./images/Profile_SalesManager.png)
 
 **ProcurementSpecialist:**
-![](./images/ProcurementSpecialist_Profile.png)
-
+![](./images/Profile_ProcurementSpecialist.png)
 
 ### Creación de usuarios
+
+Los usuarios fueron tomados de el csv users.csv de los archivos que fueron asignados.
 
 #### CEO:
 ![](./images/Usuario_Ceo.png)
@@ -140,3 +154,86 @@ Asignamos estos a sus usuarios correspondientes, que en estos casos serian el ge
 
 ![](./images/Asignacion_GerenteVentas.png)
 ![](./images/Asignacion_GerenteCompras.png)
+
+### Creación de Aplicaciones 
+
+Al momento de crear las aplicaciones se tuvo en cuenta el hecho de que hay un espacio maximo de 5MB en la organizacion, por ente por prevenir futuras limitaciones en el espacio no se coloco ninguna imagen.
+
+#### Aplicación de Ventas (Usuarios: CEO, Gerente de Ventas,Gerente de Compras)
+
+- Gestión centralizada de oportunidades y leads.
+- Gestión de compradores y órdenes de compra.
+- Dashboard interactivo con cotizaciones enviadas y pendientes.
+- Registro de actividad comercial y reuniones con clientes.
+
+![](./images/AppManager_Sales.png)
+
+#### Aplicación de Soporte (Usuarios: CEO, Gerente de Soporte)
+
+- Registro automático de tickets de servicio al cliente.
+- Base de conocimientos con soluciones a problemas frecuentes.
+- Panel de métricas sobre cantidad de casos abiertos y la resolución del mismo.
+
+Al momento de crear la pagina para cumplir con las condiciones 2 y 3 se realizo lo siguiente, se habilito knowledge de salesforce y se creo una lightning page para cumplir con la condición 3
+
+![](./images/AppBuilder_CaseMetrics.png)
+
+## Creación de objetos, campos y datos
+
+- Considero que para la configuración de esta organización, la gran mayoría de objetos estándar de SalesForce es suficiente, por ello para campos como lo es el id presente en los csv solo sera un campo nuevo a añadir
+- Como fue dicho propiamente antes, se crearan campos del tipo external id para hacer match en los datos
+
+#### **¿Por que usar objetos personalizados?**
+
+La principal y mayor razón por la que no se usaron objetos personalizados es que muchos de los objetos estándar de salesforce tienen funcionalidades que no se pueden duplicar en objetos personalizados
+
+### Importación de datos
+
+Para la importación de datos considere que la herramienta mas conveniente era el data loader debido a que estamos importando a objetos estandar
+
+#### Importación de datos en Accounts
+
+![](./images/Importacion_Accounts1.png)
+![](./images/Importacion_Accounts2.png)
+
+#### Importación de datos en Contacts
+Se importaron 800 registros en contacts, debido a la posibilidad de quedarse sin almacenamiento, los siguientes datos seran truncados a maximo 200
+![](./images/Importacion_Contacts1.png)
+![](./images/Importacion_Contacts2.png)
+
+#### Importación de datos en Leads
+En la importacion de leads se añádio company name ya que es un campo necesario al momento de crear un lead, ademas de que se añadieron nombres de las companys que existian en accounts
+![](./images/Importacion_Leads1.png)
+![](./images/Importacion_Leads2.png)
+
+#### Importación de datos en Cases
+Al momento de importar datos a cases se tomaron las siguientes decisiones 
+
+- cambiar el status de open a new, ya que como tal en los leads no existe ese status y no considere necesario crearlo
+
+- se añadio el valor critical a la picklist de priority
+
+- finalmente el case origin tambien era necesario, por ende se asumio el case origin de todos como phone
+
+- A pesar de cambiar el estado a new, este se considera abierto, ya que esto es otro campo que se activa automaricamente
+![](./images/Importacion_Cases1.png)
+![](./images/Importacion_Cases2.png)
+
+#### Importación de datos en Opportunities
+Se Realizaron los siguientes cambios
+
+- Se añadio una close date debido a que esta era necesaria
+
+- se tradujeron los stages a al ingles para que hicieran match
+![](./images/Importacion_Opportunities1.png)
+![](./images/Importacion_Opportunities2.png)
+
+
+#### Importación de datos en Products
+Se Realizaron los siguientes cambios
+
+- Se añadieron campon no existentes como lo eran price y stock para cumplir las necesidades de la empresa costrufurgo
+
+- Se añadio un record type que añadiera los valores a la picklist product family (category) para que fueran los de los registros existentes
+![](./images/Importacion_Producto1.png)
+![](./images/Importacion_Producto2.png)

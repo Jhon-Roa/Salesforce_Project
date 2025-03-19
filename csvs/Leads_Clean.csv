@@ -1,0 +1,201 @@
+Lead_ID,Name,Email,Industry,Phone,Company
+1,Lead 1,lead1@construfurgo.com,Manufacturing,+1-455-9110,SteelCargo
+2,Lead 2,lead2@construfurgo.com,Construction,+1-292-4209,ConstruMóvil
+3,Lead 3,lead3@construfurgo.com,Technology,+1-678-8711,TechCargo
+4,Lead 4,lead4@construfurgo.com,Technology,+1-750-9184,TechCargo
+5,Lead 5,lead5@construfurgo.com,Manufacturing,+1-826-4445,SteelCargo
+6,Lead 6,lead6@construfurgo.com,Retail,+1-946-2539,DistribuExpress
+7,Lead 7,lead7@construfurgo.com,Food & Beverage,+1-720-5137,FoodFleet
+8,Lead 8,lead8@construfurgo.com,Retail,+1-474-9006,UrbanLogistics
+9,Lead 9,lead9@construfurgo.com,Technology,+1-788-2410,CargoNet
+10,Lead 10,lead10@construfurgo.com,Retail,+1-286-9895,DistribuExpress
+11,Lead 11,lead11@construfurgo.com,Food & Beverage,+1-816-7444,FoodFleet
+12,Lead 12,lead12@construfurgo.com,Food & Beverage,+1-583-4849,FoodFleet
+13,Lead 13,lead13@construfurgo.com,Retail,+1-410-1569,UrbanLogistics
+14,Lead 14,lead14@construfurgo.com,Manufactura,+1-676-3579,SteelCargo
+15,Lead 15,lead15@construfurgo.com,Manufactura,+1-583-9660,SteelCargo
+16,Lead 16,lead16@construfurgo.com,Retail,+1-680-7010,UrbanLogistics
+17,Lead 17,lead17@construfurgo.com,Retail,+1-685-8666,DistribuExpress
+18,Lead 18,lead18@construfurgo.com,Technology,+1-434-7191,TechCargo
+19,Lead 19,lead19@construfurgo.com,Manufacturing,+1-394-6327,SteelCargo
+20,Lead 20,lead20@construfurgo.com,Technology,+1-201-5003,TechCargo
+21,Lead 21,lead21@construfurgo.com,Manufactura,+1-866-6183,SteelCargo
+22,Lead 22,lead22@construfurgo.com,Food & Beverage,+1-491-9242,FoodFleet
+23,Lead 23,lead23@construfurgo.com,Food & Beverage,+1-422-4864,FoodFleet
+24,Lead 24,lead24@construfurgo.com,Manufactura,+1-686-2106,SteelCargo
+25,Lead 25,lead25@construfurgo.com,Food & Beverage,+1-315-5953,FoodFleet
+26,Lead 26,lead26@construfurgo.com,Manufacturing,+1-510-5022,SteelCargo
+27,Lead 27,lead27@construfurgo.com,Manufacturing,+1-516-5722,SteelCargo
+28,Lead 28,lead28@construfurgo.com,Technology,+1-796-4777,TechCargo
+29,Lead 29,lead29@construfurgo.com,Retail,+1-111-4314,DistribuExpress
+30,Lead 30,lead30@construfurgo.com,Manufacturing,+1-315-3010,SteelCargo
+31,Lead 31,lead31@construfurgo.com,Manufacturing,+1-520-1047,SteelCargo
+32,Lead 32,lead32@construfurgo.com,Manufacturing,+1-762-8624,SteelCargo
+33,Lead 33,lead33@construfurgo.com,Food & Beverage,+1-907-6100,FoodFleet
+34,Lead 34,lead34@construfurgo.com,Technology,+1-593-9093,TechCargo
+35,Lead 35,lead35@construfurgo.com,Construction,+1-541-7389,ConstruMóvil
+36,Lead 36,lead36@construfurgo.com,Food & Beverage,+1-193-2151,FoodFleet
+37,Lead 37,lead37@construfurgo.com,Retail,+1-751-8778,UrbanLogistics
+38,Lead 38,lead38@construfurgo.com,Construction,+1-196-6396,ConstruMóvil
+39,Lead 39,lead39@construfurgo.com,Retail,+1-844-1684,DistribuExpress
+40,Lead 40,lead40@construfurgo.com,Technology,+1-538-1031,TechCargo
+41,Lead 41,lead41@construfurgo.com,Food & Beverage,+1-426-7646,FoodFleet
+42,Lead 42,lead42@construfurgo.com,Construction,+1-356-2392,ConstruMóvil
+43,Lead 43,lead43@construfurgo.com,Food & Beverage,+1-952-9202,FoodFleet
+44,Lead 44,lead44@construfurgo.com,Retail,+1-870-7479,UrbanLogistics
+45,Lead 45,lead45@construfurgo.com,Manufacturing,+1-504-8898,SteelCargo
+46,Lead 46,lead46@construfurgo.com,Manufacturing,+1-579-2587,SteelCargo
+47,Lead 47,lead47@construfurgo.com,Food & Beverage,+1-346-1214,FoodFleet
+48,Lead 48,lead48@construfurgo.com,Food & Beverage,+1-780-1548,FoodFleet
+49,Lead 49,lead49@construfurgo.com,Manufacturing,+1-254-7240,SteelCargo
+50,Lead 50,lead50@construfurgo.com,Manufactura,+1-958-1538,SteelCargo
+51,Lead 51,lead51@construfurgo.com,Retail,+1-693-9834,DistribuExpress
+52,Lead 52,lead52@construfurgo.com,Retail,+1-735-4621,DistribuExpress
+53,Lead 53,lead53@construfurgo.com,Food & Beverage,+1-588-5824,FoodFleet
+54,Lead 54,lead54@construfurgo.com,Construction,+1-634-8196,ConstruMóvil
+55,Lead 55,lead55@construfurgo.com,Retail,+1-285-5093,UrbanLogistics
+56,Lead 56,lead56@construfurgo.com,Construction,+1-659-3401,ConstruMóvil
+57,Lead 57,lead57@construfurgo.com,Manufactura,+1-396-3901,SteelCargo
+58,Lead 58,lead58@construfurgo.com,Retail,+1-398-7733,UrbanLogistics
+59,Lead 59,lead59@construfurgo.com,Construction,+1-159-7705,ConstruMóvil
+60,Lead 60,lead60@construfurgo.com,Food & Beverage,+1-628-4796,FoodFleet
+61,Lead 61,lead61@construfurgo.com,Construction,+1-167-6283,ConstruMóvil
+62,Lead 62,lead62@construfurgo.com,Technology,+1-157-4997,TechCargo
+63,Lead 63,lead63@construfurgo.com,Food & Beverage,+1-354-8141,FoodFleet
+64,Lead 64,lead64@construfurgo.com,Retail,+1-472-9333,DistribuExpress
+65,Lead 65,lead65@construfurgo.com,Construction,+1-142-2219,ConstruMóvil
+66,Lead 66,lead66@construfurgo.com,Construction,+1-802-7890,ConstruMóvil
+67,Lead 67,lead67@construfurgo.com,Technology,+1-271-1893,TechCargo
+68,Lead 68,lead68@construfurgo.com,Retail,+1-684-7977,UrbanLogistics
+69,Lead 69,lead69@construfurgo.com,Technology,+1-963-1954,TechCargo
+70,Lead 70,lead70@construfurgo.com,Construction,+1-777-9855,ConstruMóvil
+71,Lead 71,lead71@construfurgo.com,Construction,+1-321-8033,ConstruMóvil
+72,Lead 72,lead72@construfurgo.com,Retail,+1-256-5006,DistribuExpress
+73,Lead 73,lead73@construfurgo.com,Manufactura,+1-749-4862,SteelCargo
+74,Lead 74,lead74@construfurgo.com,Technology,+1-946-2453,TechCargo
+75,Lead 75,lead75@construfurgo.com,Construction,+1-350-7150,ConstruMóvil
+76,Lead 76,lead76@construfurgo.com,Manufactura,+1-390-5576,SteelCargo
+77,Lead 77,lead77@construfurgo.com,Construction,+1-781-6348,ConstruMóvil
+78,Lead 78,lead78@construfurgo.com,Manufactura,+1-540-8296,SteelCargo
+79,Lead 79,lead79@construfurgo.com,Manufactura,+1-327-5053,SteelCargo
+80,Lead 80,lead80@construfurgo.com,Technology,+1-767-9805,TechCargo
+81,Lead 81,lead81@construfurgo.com,Retail,+1-963-1865,DistribuExpress
+82,Lead 82,lead82@construfurgo.com,Retail,+1-624-5935,UrbanLogistics
+83,Lead 83,lead83@construfurgo.com,Technology,+1-934-1496,TechCargo
+84,Lead 84,lead84@construfurgo.com,Technology,+1-753-8493,TechCargo
+85,Lead 85,lead85@construfurgo.com,Technology,+1-695-5811,TechCargo
+86,Lead 86,lead86@construfurgo.com,Food & Beverage,+1-751-2469,FoodFleet
+87,Lead 87,lead87@construfurgo.com,Retail,+1-655-3192,UrbanLogistics
+88,Lead 88,lead88@construfurgo.com,Technology,+1-297-2192,TechCargo
+89,Lead 89,lead89@construfurgo.com,Food & Beverage,+1-591-3549,FoodFleet
+90,Lead 90,lead90@construfurgo.com,Retail,+1-136-8927,DistribuExpress
+91,Lead 91,lead91@construfurgo.com,Food & Beverage,+1-232-3906,FoodFleet
+92,Lead 92,lead92@construfurgo.com,Manufacturing,+1-808-5218,SteelCargo
+93,Lead 93,lead93@construfurgo.com,Manufacturing,+1-442-3402,SteelCargo
+94,Lead 94,lead94@construfurgo.com,Retail,+1-898-8431,UrbanLogistics
+95,Lead 95,lead95@construfurgo.com,Technology,+1-775-5587,TechCargo
+96,Lead 96,lead96@construfurgo.com,Technology,+1-590-8849,TechCargo
+97,Lead 97,lead97@construfurgo.com,Construction,+1-912-9596,ConstruMóvil
+98,Lead 98,lead98@construfurgo.com,Retail,+1-681-8647,DistribuExpress
+99,Lead 99,lead99@construfurgo.com,Construction,+1-328-8350,ConstruMóvil
+100,Lead 100,lead100@construfurgo.com,Manufacturing,+1-340-6623,SteelCargo
+101,Lead 101,lead101@construfurgo.com,Retail,+1-196-9276,UrbanLogistics
+102,Lead 102,lead102@construfurgo.com,Construction,+1-579-2137,ConstruMóvil
+103,Lead 103,lead103@construfurgo.com,Technology,+1-514-5241,TechCargo
+104,Lead 104,lead104@construfurgo.com,Manufactura,+1-849-2753,SteelCargo
+105,Lead 105,lead105@construfurgo.com,Manufacturing,+1-761-2322,SteelCargo
+106,Lead 106,lead106@construfurgo.com,Technology,+1-558-4864,TechCargo
+107,Lead 107,lead107@construfurgo.com,Retail,+1-897-5674,DistribuExpress
+108,Lead 108,lead108@construfurgo.com,Manufactura,+1-981-7890,SteelCargo
+109,Lead 109,lead109@construfurgo.com,Retail,+1-294-8368,UrbanLogistics
+110,Lead 110,lead110@construfurgo.com,Technology,+1-695-3364,TechCargo
+111,Lead 111,lead111@construfurgo.com,Manufactura,+1-778-8800,SteelCargo
+112,Lead 112,lead112@construfurgo.com,Manufacturing,+1-491-7205,SteelCargo
+113,Lead 113,lead113@construfurgo.com,Retail,+1-589-3604,DistribuExpress
+114,Lead 114,lead114@construfurgo.com,Food & Beverage,+1-235-4807,FoodFleet
+115,Lead 115,lead115@construfurgo.com,Construction,+1-895-9434,ConstruMóvil
+116,Lead 116,lead116@construfurgo.com,Manufacturing,+1-512-3226,SteelCargo
+117,Lead 117,lead117@construfurgo.com,Manufacturing,+1-275-1051,SteelCargo
+118,Lead 118,lead118@construfurgo.com,Manufacturing,+1-432-5339,SteelCargo
+119,Lead 119,lead119@construfurgo.com,Technology,+1-243-7686,TechCargo
+120,Lead 120,lead120@construfurgo.com,Manufacturing,+1-747-1670,SteelCargo
+121,Lead 121,lead121@construfurgo.com,Retail,+1-920-3412,UrbanLogistics
+122,Lead 122,lead122@construfurgo.com,Food & Beverage,+1-468-2423,FoodFleet
+123,Lead 123,lead123@construfurgo.com,Construction,+1-675-9694,ConstruMóvil
+124,Lead 124,lead124@construfurgo.com,Manufactura,+1-607-9281,SteelCargo
+125,Lead 125,lead125@construfurgo.com,Retail,+1-648-4267,DistribuExpress
+126,Lead 126,lead126@construfurgo.com,Manufacturing,+1-569-6747,SteelCargo
+127,Lead 127,lead127@construfurgo.com,Construction,+1-826-5378,ConstruMóvil
+128,Lead 128,lead128@construfurgo.com,Technology,+1-533-8893,TechCargo
+129,Lead 129,lead129@construfurgo.com,Construction,+1-292-2441,ConstruMóvil
+130,Lead 130,lead130@construfurgo.com,Retail,+1-783-6526,UrbanLogistics
+131,Lead 131,lead131@construfurgo.com,Construction,+1-846-8667,ConstruMóvil
+132,Lead 132,lead132@construfurgo.com,Retail,+1-199-3244,DistribuExpress
+133,Lead 133,lead133@construfurgo.com,Food & Beverage,+1-158-8032,FoodFleet
+134,Lead 134,lead134@construfurgo.com,Manufactura,+1-689-8814,SteelCargo
+135,Lead 135,lead135@construfurgo.com,Manufacturing,+1-125-2645,SteelCargo
+136,Lead 136,lead136@construfurgo.com,Retail,+1-413-3023,UrbanLogistics
+137,Lead 137,lead137@construfurgo.com,Retail,+1-876-1041,DistribuExpress
+138,Lead 138,lead138@construfurgo.com,Manufacturing,+1-716-4986,SteelCargo
+139,Lead 139,lead139@construfurgo.com,Retail,+1-973-3581,UrbanLogistics
+140,Lead 140,lead140@construfurgo.com,Technology,+1-250-5532,TechCargo
+141,Lead 141,lead141@construfurgo.com,Construction,+1-816-8932,ConstruMóvil
+142,Lead 142,lead142@construfurgo.com,Food & Beverage,+1-334-2084,FoodFleet
+143,Lead 143,lead143@construfurgo.com,Retail,+1-517-7324,DistribuExpress
+144,Lead 144,lead144@construfurgo.com,Retail,+1-480-9553,UrbanLogistics
+145,Lead 145,lead145@construfurgo.com,Manufactura,+1-347-9316,SteelCargo
+146,Lead 146,lead146@construfurgo.com,Retail,+1-731-9349,DistribuExpress
+147,Lead 147,lead147@construfurgo.com,Retail,+1-253-3971,UrbanLogistics
+148,Lead 148,lead148@construfurgo.com,Food & Beverage,+1-379-6891,FoodFleet
+149,Lead 149,lead149@construfurgo.com,Food & Beverage,+1-456-5189,FoodFleet
+150,Lead 150,lead150@construfurgo.com,Construction,+1-856-8859,ConstruMóvil
+151,Lead 151,lead151@construfurgo.com,Construction,+1-513-9825,ConstruMóvil
+152,Lead 152,lead152@construfurgo.com,Manufactura,+1-722-2259,SteelCargo
+153,Lead 153,lead153@construfurgo.com,Food & Beverage,+1-201-3994,FoodFleet
+154,Lead 154,lead154@construfurgo.com,Food & Beverage,+1-494-8245,FoodFleet
+155,Lead 155,lead155@construfurgo.com,Retail,+1-306-8904,DistribuExpress
+156,Lead 156,lead156@construfurgo.com,Retail,+1-246-1929,UrbanLogistics
+157,Lead 157,lead157@construfurgo.com,Technology,+1-880-7322,TechCargo
+158,Lead 158,lead158@construfurgo.com,Technology,+1-600-9847,TechCargo
+159,Lead 159,lead159@construfurgo.com,Retail,+1-312-6430,DistribuExpress
+160,Lead 160,lead160@construfurgo.com,Construction,+1-436-8212,ConstruMóvil
+161,Lead 161,lead161@construfurgo.com,Manufacturing,+1-901-3342,SteelCargo
+162,Lead 162,lead162@construfurgo.com,Manufacturing,+1-558-6121,SteelCargo
+163,Lead 163,lead163@construfurgo.com,Retail,+1-913-1492,UrbanLogistics
+164,Lead 164,lead164@construfurgo.com,Technology,+1-123-5832,TechCargo
+165,Lead 165,lead165@construfurgo.com,Manufacturing,+1-966-8804,SteelCargo
+166,Lead 166,lead166@construfurgo.com,Food & Beverage,+1-295-4983,FoodFleet
+167,Lead 167,lead167@construfurgo.com,Food & Beverage,+1-332-2758,FoodFleet
+168,Lead 168,lead168@construfurgo.com,Retail,+1-419-6928,DistribuExpress
+169,Lead 169,lead169@construfurgo.com,Retail,+1-951-8673,UrbanLogistics
+170,Lead 170,lead170@construfurgo.com,Retail,+1-390-5782,DistribuExpress
+171,Lead 171,lead171@construfurgo.com,Construction,+1-807-3156,ConstruMóvil
+172,Lead 172,lead172@construfurgo.com,Technology,+1-316-4549,TechCargo
+173,Lead 173,lead173@construfurgo.com,Technology,+1-946-2146,TechCargo
+174,Lead 174,lead174@construfurgo.com,Food & Beverage,+1-382-8504,FoodFleet
+175,Lead 175,lead175@construfurgo.com,Manufacturing,+1-701-4628,SteelCargo
+176,Lead 176,lead176@construfurgo.com,Construction,+1-597-3355,ConstruMóvil
+177,Lead 177,lead177@construfurgo.com,Manufacturing,+1-607-2823,SteelCargo
+178,Lead 178,lead178@construfurgo.com,Food & Beverage,+1-980-4103,FoodFleet
+179,Lead 179,lead179@construfurgo.com,Manufacturing,+1-833-8174,SteelCargo
+180,Lead 180,lead180@construfurgo.com,Construction,+1-649-5766,ConstruMóvil
+181,Lead 181,lead181@construfurgo.com,Construction,+1-489-5673,ConstruMóvil
+182,Lead 182,lead182@construfurgo.com,Food & Beverage,+1-996-9234,FoodFleet
+183,Lead 183,lead183@construfurgo.com,Manufactura,+1-963-3734,SteelCargo
+184,Lead 184,lead184@construfurgo.com,Food & Beverage,+1-710-6050,FoodFleet
+185,Lead 185,lead185@construfurgo.com,Technology,+1-373-7663,TechCargo
+186,Lead 186,lead186@construfurgo.com,Manufactura,+1-573-1625,SteelCargo
+187,Lead 187,lead187@construfurgo.com,Food & Beverage,+1-296-9535,FoodFleet
+188,Lead 188,lead188@construfurgo.com,Construction,+1-471-2750,ConstruMóvil
+189,Lead 189,lead189@construfurgo.com,Food & Beverage,+1-984-2861,FoodFleet
+190,Lead 190,lead190@construfurgo.com,Retail,+1-439-9398,DistribuExpress
+191,Lead 191,lead191@construfurgo.com,Food & Beverage,+1-665-6264,FoodFleet
+192,Lead 192,lead192@construfurgo.com,Retail,+1-557-9841,UrbanLogistics
+193,Lead 193,lead193@construfurgo.com,Retail,+1-169-5138,DistribuExpress
+194,Lead 194,lead194@construfurgo.com,Food & Beverage,+1-640-4185,FoodFleet
+195,Lead 195,lead195@construfurgo.com,Manufactura,+1-728-3078,SteelCargo
+196,Lead 196,lead196@construfurgo.com,Manufacturing,+1-256-1289,SteelCargo
+197,Lead 197,lead197@construfurgo.com,Technology,+1-983-1535,TechCargo
+198,Lead 198,lead198@construfurgo.com,Retail,+1-205-6441,UrbanLogistics
+199,Lead 199,lead199@construfurgo.com,Manufacturing,+1-648-5247,SteelCargo
+200,Lead 200,lead200@construfurgo.com,Manufacturing,+1-505-8582,SteelCargo

@@ -1,0 +1,201 @@
+Opportunity_ID,Account_ID,Name,Stage,Amount,Close_Date
+1,12,Oportunidad 1,Closed Won,33707,2025-03-18
+2,3,Oportunidad 2,Closed Lost,48140,2025-03-19
+3,21,Oportunidad 3,Negotiation/Review,39276,2025-03-20
+4,15,Oportunidad 4,Prospecting,41691,2025-03-21
+5,8,Oportunidad 5,Prospecting,16110,2025-03-22
+6,13,Oportunidad 6,Closed Won,16821,2025-03-23
+7,25,Oportunidad 7,Proposal/Price Quote,42010,2025-03-24
+8,24,Oportunidad 8,Qualification,15891,2025-03-25
+9,11,Oportunidad 9,Qualification,27341,2025-03-26
+10,13,Oportunidad 10,Prospecting,24256,2025-03-27
+11,20,Oportunidad 11,Qualification,17933,2025-03-28
+12,12,Oportunidad 12,Negotiation/Review,34502,2025-03-29
+13,15,Oportunidad 13,Negotiation/Review,13371,2025-03-30
+14,13,Oportunidad 14,Prospecting,19902,2025-03-31
+15,3,Oportunidad 15,Proposal/Price Quote,48676,2025-04-01
+16,19,Oportunidad 16,Prospecting,18731,2025-04-02
+17,22,Oportunidad 17,Qualification,17786,2025-04-03
+18,7,Oportunidad 18,Prospecting,25807,2025-04-04
+19,19,Oportunidad 19,Closed Won,29658,2025-04-05
+20,12,Oportunidad 20,Proposal/Price Quote,27814,2025-04-06
+21,9,Oportunidad 21,Qualification,33703,2025-04-07
+22,2,Oportunidad 22,Closed Lost,49929,2025-04-08
+23,15,Oportunidad 23,Qualification,13323,2025-04-09
+24,25,Oportunidad 24,Proposal/Price Quote,34896,2025-04-10
+25,16,Oportunidad 25,Negotiation/Review,43823,2025-04-11
+26,18,Oportunidad 26,Proposal/Price Quote,49330,2025-04-12
+27,17,Oportunidad 27,Qualification,30549,2025-04-13
+28,7,Oportunidad 28,Negotiation/Review,19415,2025-04-14
+29,16,Oportunidad 29,Closed Won,34890,2025-04-15
+30,24,Oportunidad 30,Negotiation/Review,45265,2025-04-16
+31,19,Oportunidad 31,Proposal/Price Quote,24538,2025-04-17
+32,13,Oportunidad 32,Prospecting,47271,2025-04-18
+33,5,Oportunidad 33,Proposal/Price Quote,23452,2025-04-19
+34,16,Oportunidad 34,Qualification,23850,2025-04-20
+35,6,Oportunidad 35,Prospecting,15639,2025-04-21
+36,23,Oportunidad 36,Negotiation/Review,42980,2025-04-22
+37,24,Oportunidad 37,Prospecting,37518,2025-04-23
+38,23,Oportunidad 38,Closed Lost,14545,2025-04-24
+39,24,Oportunidad 39,Closed Won,17445,2025-04-25
+40,18,Oportunidad 40,Negotiation/Review,30953,2025-04-26
+41,16,Oportunidad 41,Closed Won,14053,2025-04-27
+42,24,Oportunidad 42,Qualification,10487,2025-04-28
+43,21,Oportunidad 43,Closed Lost,42573,2025-04-29
+44,18,Oportunidad 44,Closed Lost,39937,2025-04-30
+45,3,Oportunidad 45,Negotiation/Review,23947,2025-05-01
+46,11,Oportunidad 46,Closed Won,10284,2025-05-02
+47,9,Oportunidad 47,Closed Lost,35438,2025-05-03
+48,4,Oportunidad 48,Closed Lost,34114,2025-05-04
+49,11,Oportunidad 49,Negotiation/Review,33765,2025-05-05
+50,24,Oportunidad 50,Negotiation/Review,24226,2025-05-06
+51,18,Oportunidad 51,Closed Lost,10054,2025-05-07
+52,24,Oportunidad 52,Closed Lost,17646,2025-05-08
+53,1,Oportunidad 53,Closed Lost,29664,2025-05-09
+54,7,Oportunidad 54,Prospecting,20510,2025-05-10
+55,14,Oportunidad 55,Closed Lost,24667,2025-05-11
+56,15,Oportunidad 56,Qualification,49385,2025-05-12
+57,9,Oportunidad 57,Proposal/Price Quote,28886,2025-05-13
+58,18,Oportunidad 58,Negotiation/Review,44024,2025-05-14
+59,22,Oportunidad 59,Qualification,21102,2025-05-15
+60,11,Oportunidad 60,Closed Lost,33383,2025-05-16
+61,9,Oportunidad 61,Closed Won,14278,2025-05-17
+62,25,Oportunidad 62,Negotiation/Review,12858,2025-05-18
+63,22,Oportunidad 63,Negotiation/Review,33851,2025-05-19
+64,3,Oportunidad 64,Prospecting,38926,2025-05-20
+65,18,Oportunidad 65,Qualification,24230,2025-05-21
+66,10,Oportunidad 66,Prospecting,15194,2025-05-22
+67,4,Oportunidad 67,Closed Lost,12093,2025-05-23
+68,10,Oportunidad 68,Closed Won,46448,2025-05-24
+69,6,Oportunidad 69,Proposal/Price Quote,28648,2025-05-25
+70,24,Oportunidad 70,Qualification,43838,2025-05-26
+71,1,Oportunidad 71,Negotiation/Review,22684,2025-05-27
+72,4,Oportunidad 72,Proposal/Price Quote,40309,2025-05-28
+73,21,Oportunidad 73,Negotiation/Review,11607,2025-05-29
+74,23,Oportunidad 74,Qualification,14851,2025-05-30
+75,23,Oportunidad 75,Closed Won,15905,2025-05-31
+76,20,Oportunidad 76,Closed Won,24092,2025-06-01
+77,1,Oportunidad 77,Prospecting,20878,2025-06-02
+78,24,Oportunidad 78,Closed Lost,43887,2025-06-03
+79,19,Oportunidad 79,Closed Lost,29328,2025-06-04
+80,5,Oportunidad 80,Proposal/Price Quote,12320,2025-06-05
+81,11,Oportunidad 81,Negotiation/Review,35218,2025-06-06
+82,16,Oportunidad 82,Prospecting,47576,2025-06-07
+83,12,Oportunidad 83,Negotiation/Review,46960,2025-06-08
+84,14,Oportunidad 84,Proposal/Price Quote,10138,2025-06-09
+85,13,Oportunidad 85,Proposal/Price Quote,43508,2025-06-10
+86,23,Oportunidad 86,Prospecting,15053,2025-06-11
+87,17,Oportunidad 87,Closed Won,45987,2025-06-12
+88,5,Oportunidad 88,Proposal/Price Quote,14182,2025-06-13
+89,13,Oportunidad 89,Negotiation/Review,35983,2025-06-14
+90,5,Oportunidad 90,Prospecting,49270,2025-06-15
+91,6,Oportunidad 91,Qualification,14397,2025-06-16
+92,23,Oportunidad 92,Proposal/Price Quote,33867,2025-06-17
+93,17,Oportunidad 93,Closed Lost,36105,2025-06-18
+94,13,Oportunidad 94,Qualification,16031,2025-06-19
+95,3,Oportunidad 95,Prospecting,34946,2025-06-20
+96,22,Oportunidad 96,Negotiation/Review,18608,2025-06-21
+97,22,Oportunidad 97,Closed Won,12343,2025-06-22
+98,5,Oportunidad 98,Qualification,15387,2025-06-23
+99,22,Oportunidad 99,Qualification,23652,2025-06-24
+100,24,Oportunidad 100,Closed Lost,46322,2025-06-25
+101,1,Oportunidad 101,Closed Lost,33852,2025-06-26
+102,4,Oportunidad 102,Prospecting,19962,2025-06-27
+103,6,Oportunidad 103,Closed Won,16376,2025-06-28
+104,5,Oportunidad 104,Proposal/Price Quote,21386,2025-06-29
+105,25,Oportunidad 105,Closed Lost,42501,2025-06-30
+106,12,Oportunidad 106,Qualification,35373,2025-07-01
+107,15,Oportunidad 107,Closed Lost,40666,2025-07-02
+108,11,Oportunidad 108,Prospecting,17740,2025-07-03
+109,22,Oportunidad 109,Prospecting,24372,2025-07-04
+110,7,Oportunidad 110,Qualification,26860,2025-07-05
+111,15,Oportunidad 111,Negotiation/Review,41737,2025-07-06
+112,16,Oportunidad 112,Closed Won,33592,2025-07-07
+113,12,Oportunidad 113,Closed Lost,14230,2025-07-08
+114,19,Oportunidad 114,Closed Won,23119,2025-07-09
+115,9,Oportunidad 115,Qualification,23693,2025-07-10
+116,15,Oportunidad 116,Negotiation/Review,31593,2025-07-11
+117,2,Oportunidad 117,Closed Won,27136,2025-07-12
+118,24,Oportunidad 118,Closed Lost,45633,2025-07-13
+119,6,Oportunidad 119,Proposal/Price Quote,16610,2025-07-14
+120,10,Oportunidad 120,Qualification,41560,2025-07-15
+121,15,Oportunidad 121,Negotiation/Review,26203,2025-07-16
+122,2,Oportunidad 122,Closed Lost,10374,2025-07-17
+123,14,Oportunidad 123,Prospecting,47774,2025-07-18
+124,10,Oportunidad 124,Closed Lost,25323,2025-07-19
+125,17,Oportunidad 125,Closed Lost,29519,2025-07-20
+126,11,Oportunidad 126,Proposal/Price Quote,38898,2025-07-21
+127,8,Oportunidad 127,Negotiation/Review,39089,2025-07-22
+128,21,Oportunidad 128,Closed Won,48254,2025-07-23
+129,5,Oportunidad 129,Prospecting,42914,2025-07-24
+130,18,Oportunidad 130,Prospecting,37003,2025-07-25
+131,20,Oportunidad 131,Closed Won,14886,2025-07-26
+132,7,Oportunidad 132,Prospecting,46348,2025-07-27
+133,12,Oportunidad 133,Closed Won,40515,2025-07-28
+134,8,Oportunidad 134,Closed Won,32217,2025-07-29
+135,16,Oportunidad 135,Closed Won,25069,2025-07-30
+136,8,Oportunidad 136,Closed Won,36430,2025-07-31
+137,10,Oportunidad 137,Prospecting,15086,2025-08-01
+138,23,Oportunidad 138,Qualification,46785,2025-08-02
+139,22,Oportunidad 139,Negotiation/Review,24130,2025-08-03
+140,6,Oportunidad 140,Closed Won,49418,2025-08-04
+141,15,Oportunidad 141,Negotiation/Review,18410,2025-08-05
+142,3,Oportunidad 142,Qualification,23879,2025-08-06
+143,4,Oportunidad 143,Prospecting,27872,2025-08-07
+144,20,Oportunidad 144,Proposal/Price Quote,35185,2025-08-08
+145,5,Oportunidad 145,Prospecting,14372,2025-08-09
+146,6,Oportunidad 146,Prospecting,35665,2025-08-10
+147,24,Oportunidad 147,Closed Won,49848,2025-08-11
+148,19,Oportunidad 148,Closed Won,30143,2025-08-12
+149,12,Oportunidad 149,Qualification,38191,2025-08-13
+150,15,Oportunidad 150,Prospecting,29358,2025-08-14
+151,14,Oportunidad 151,Proposal/Price Quote,42859,2025-08-15
+152,14,Oportunidad 152,Closed Lost,18201,2025-08-16
+153,13,Oportunidad 153,Negotiation/Review,45702,2025-08-17
+154,17,Oportunidad 154,Prospecting,47405,2025-08-18
+155,8,Oportunidad 155,Proposal/Price Quote,28832,2025-08-19
+156,16,Oportunidad 156,Closed Lost,42855,2025-08-20
+157,17,Oportunidad 157,Closed Lost,32296,2025-08-21
+158,10,Oportunidad 158,Closed Won,49001,2025-08-22
+159,8,Oportunidad 159,Qualification,38509,2025-08-23
+160,18,Oportunidad 160,Negotiation/Review,20651,2025-08-24
+161,3,Oportunidad 161,Qualification,14691,2025-08-25
+162,4,Oportunidad 162,Prospecting,48757,2025-08-26
+163,9,Oportunidad 163,Prospecting,23645,2025-08-27
+164,10,Oportunidad 164,Negotiation/Review,20382,2025-08-28
+165,2,Oportunidad 165,Closed Won,14434,2025-08-29
+166,5,Oportunidad 166,Proposal/Price Quote,20659,2025-08-30
+167,19,Oportunidad 167,Closed Lost,36592,2025-08-31
+168,14,Oportunidad 168,Negotiation/Review,27496,2025-09-01
+169,4,Oportunidad 169,Qualification,32871,2025-09-02
+170,3,Oportunidad 170,Proposal/Price Quote,20783,2025-09-03
+171,12,Oportunidad 171,Qualification,20362,2025-09-04
+172,16,Oportunidad 172,Proposal/Price Quote,10388,2025-09-05
+173,23,Oportunidad 173,Closed Won,15843,2025-09-06
+174,16,Oportunidad 174,Prospecting,34604,2025-09-07
+175,2,Oportunidad 175,Proposal/Price Quote,10968,2025-09-08
+176,14,Oportunidad 176,Prospecting,28370,2025-09-09
+177,18,Oportunidad 177,Proposal/Price Quote,42555,2025-09-10
+178,13,Oportunidad 178,Prospecting,12937,2025-09-11
+179,2,Oportunidad 179,Closed Won,14055,2025-09-12
+180,17,Oportunidad 180,Closed Won,34538,2025-09-13
+181,22,Oportunidad 181,Qualification,34656,2025-09-14
+182,5,Oportunidad 182,Qualification,40347,2025-09-15
+183,11,Oportunidad 183,Closed Won,42106,2025-09-16
+184,11,Oportunidad 184,Negotiation/Review,17080,2025-09-17
+185,17,Oportunidad 185,Negotiation/Review,26732,2025-09-18
+186,12,Oportunidad 186,Closed Won,48099,2025-09-19
+187,9,Oportunidad 187,Closed Lost,45922,2025-09-20
+188,25,Oportunidad 188,Closed Won,35361,2025-09-21
+189,14,Oportunidad 189,Closed Won,40830,2025-09-22
+190,20,Oportunidad 190,Closed Lost,12498,2025-09-23
+191,18,Oportunidad 191,Closed Lost,38697,2025-09-24
+192,5,Oportunidad 192,Negotiation/Review,29086,2025-09-25
+193,16,Oportunidad 193,Qualification,30139,2025-09-26
+194,9,Oportunidad 194,Prospecting,31261,2025-09-27
+195,13,Oportunidad 195,Closed Won,43233,2025-09-28
+196,4,Oportunidad 196,Prospecting,24211,2025-09-29
+197,23,Oportunidad 197,Negotiation/Review,34577,2025-09-30
+198,6,Oportunidad 198,Closed Won,32049,2025-10-01
+199,19,Oportunidad 199,Proposal/Price Quote,13556,2025-10-02
+200,6,Oportunidad 200,Proposal/Price Quote,24616,2025-10-03
