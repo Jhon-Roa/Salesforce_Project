@@ -325,6 +325,19 @@ Creamos el objeto Invoice para guardar las facturas
 ![](./images/Flow_Invoice1.png)
 ![](./images/Flow_Invoice2.png)
 
+## Implementación de procesos de validación de datos en Salesforce
+
+En este punto tenemos que abarcar la validación de duplicados, email correctos y phone number correctos
+
+- para los emails no se aplico ninguna validation rule debido a que estos se validan automaticamente
+- lo mismo aplicaba para los numeros de telefono
+
+### Duplicate Rules
+
+Creamos una duplicate rule para Leads, ya que para otros campos ya existia, y como matching rule (la regla que comprobara  si esta duplicado) usaremos la estandar, ya creada.
+
+![](./images/Duplicate_Leads.png)
+
 ## Dashboards y Reportes
 
 ### Dashboard de Ventas
@@ -359,3 +372,20 @@ Para esto usamos el data export service ya que nos permite seleccionar la frecue
 - Todo intento de restauración deberá ser registrado en un log de auditoría.
 
 ![](./images/Exportacion_Datos.png)
+
+## SalesForce Mobile App
+
+### Aplicaciones en salesforce
+
+![](./images/Mobile_AppSales.png)
+![](./images/Mobile_appService.png)
+
+### Uso de Dashboards
+
+![](./images/Mobile_Dashboard.png)
+![](./images/Mobile_DashBoardUsage.png)
+
+### Visibilidad de records
+
+![](./images/Mobile_Record.png)
+![](./images/Mobile_User.png)
