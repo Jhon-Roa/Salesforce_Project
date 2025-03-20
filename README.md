@@ -1,5 +1,7 @@
 # Documentación Técnica de Salesforce - ConstruFurgo
 
+[TOC]
+
 ## Introducción
 
 Se debe crear una organización de salesforce para la empresa construfurgo, entonces se creo una con las siguientes credenciales: 
@@ -33,6 +35,14 @@ Los datos anteriores fueron agregados en sus campos correspondientes en company 
 
 ![](./images/Salesforce_CompanyInformation.png)
 ![](./images/Extra_Company_Information.png)
+
+## Seguridad y  Accesos
+
+### Password Policies
+
+Para el **Manejo de sesiones con reglas estrictas de expiración y control de actividad.** en salesforce usamos las password policies, que es un apartado en el cual podemos definir como manejaremos la seguridad de los usuarios, si queremos dar acceso según los rangos ip para hacer a los usuarios no iniciar sesión también es posible hacerlo, como en profiles bloquear los lugares en los que puede iniciar sesión, pero por conveniencia de el proyecto esto no se hará.
+
+![](./images/Password_Policies.png)
 
 ### Jerarquía de roles y permisos
 
@@ -78,6 +88,9 @@ Para la creación de permisos se creara una combinación entre profiles y permis
 
 **Visibilidad de casos:**
 ![](./images/Ver_Casos.png)
+
+**Visibilidad de invoices:**
+![](./images/Ver_Invoices.png)
 
 #### Creacion de permission set groups:
 
@@ -155,6 +168,18 @@ Asignamos estos a sus usuarios correspondientes, que en estos casos serian el ge
 ![](./images/Asignacion_GerenteVentas.png)
 ![](./images/Asignacion_GerenteCompras.png)
 
+### Creación de el SalesProcess
+
+Debido a que en la documentación de el proyecto se nos es solicitado unas etapas especificas en ventas las vamos a cambiar desde el salesProcess
+
+- Creacion
+
+![](./images/SalesProcess1.png)
+
+- Luego este SalesProcess tenemos que asignarlo a un record type
+
+![](./images/SalesProcess2.png)
+
 ### Creación de Aplicaciones 
 
 Al momento de crear las aplicaciones se tuvo en cuenta el hecho de que hay un espacio maximo de 5MB en la organizacion, por ente por prevenir futuras limitaciones en el espacio no se coloco ninguna imagen.
@@ -183,7 +208,7 @@ Al momento de crear la pagina para cumplir con las condiciones 2 y 3 se realizo 
 - Considero que para la configuración de esta organización, la gran mayoría de objetos estándar de SalesForce es suficiente, por ello para campos como lo es el id presente en los csv solo sera un campo nuevo a añadir
 - Como fue dicho propiamente antes, se crearan campos del tipo external id para hacer match en los datos
 
-#### **¿Por que usar objetos personalizados?**
+## **¿Por que no usar objetos personalizados?**
 
 La principal y mayor razón por la que no se usaron objetos personalizados es que muchos de los objetos estándar de salesforce tienen funcionalidades que no se pueden duplicar en objetos personalizados
 
@@ -237,3 +262,100 @@ Se Realizaron los siguientes cambios
 - Se añadio un record type que añadiera los valores a la picklist product family (category) para que fueran los de los registros existentes
 ![](./images/Importacion_Producto1.png)
 ![](./images/Importacion_Producto2.png)
+
+## Procesos de negocio
+
+### Asignación Automática de Leads
+
+Para este flujo utilizaremos el flow builder, aqui nos encargaremos de notificar al gerente de ventas al momento de crear un flow.
+
+- Se creo un email template
+
+- se selecciono al gerente de ventas como el destinatario cuando se creo la email alert
+
+- se creo el flow
+
+- se comprobo su funcionamiento
+
+![](./images/Flow_LeadNotification1.png)
+![](./images/Flow_LeadNotification2.png)
+![](./images/Flow_LeadNotification3.png)
+
+**Asignacion de el Lead con asigment rules:** Aqui podemos ver claramente una de las mayores ventajas de los objetos personalizados.
+
+- Creacion de una queue para los usuarios de ventas
+- assigment rule de leads a esta queue
+
+![](./images/LeadAssigment1.png)
+![](./images/LeadAssigment2.png)
+
+Finalmente para aclarar se pudo ahorrar la creacion ded el flow, ya que a traves de las assigment rules esto se habria hecho automaticamente, por ende la mejor forma de resolver este punto era a traves de las assigment rules
+
+### Conversión de Lead a Oportunidad
+
+Para la creacion de este fllujo tomaremos en cuanta la interacción de un Lead como un record update, fijaremos un contador el cual  va a sumar 1 cada vez que el usuario cambie el record, para finalmente convertirlo en una oportunidad
+
+- Creamos un campo que comprueba si ya se han interactuado 3 veces con un lead
+- si no se suma al contador
+- si se han hecho las suficientes interacciones entonces
+- crea un account si no existe
+- crea una opportunidad y le asigna el account
+- finalmente se elimina el lead
+
+![](./images/Flow_LeadToOpportunity1.png)
+![](./images/Flow_LeadToOpportunity2.png)
+
+### Seguimiento de Casos de Soporte
+
+**Uso de Case assigment rules:** Para cuando creemos un caso se asignara dependiendo de la prioridad y se enviara un email al gerente de soporte 
+![](./images/CaseAssigment.png)
+
+**Creacion de el flow:** Como no considero que las assigment rules en este caso sean suficientes, se creara un flow para reasignar el usuario y notificarlo 
+- Busca un usuario con el rol Gerente Soporte
+
+- Actualiza el owner
+
+- Notifica el usuario para avisarle que el caso le he sido asignado
+![](./images/CaseAssigment.png)
+
+### Proceso de Facturación Automática
+
+Creamos el objeto Invoice para guardar las facturas
+
+![](./images/Flow_Invoice1.png)
+![](./images/Flow_Invoice2.png)
+
+## Dashboards y Reportes
+
+### Dashboard de Ventas
+- Gráficos de oportunidades ganadas y perdidas.
+- Reporte de ingresos proyectados y alcanzados.
+
+Sea crearon los reportes, se añadieron a una carpeta y se compartieron con los respectivos usuarios.
+
+![](./images/Dashboard_Ventas.png)
+
+### Dasboard de Casos 
+
+- Casos Cerrados y no Cerrados
+- Canales por los cuales se realizaron los casos
+
+![](./images/Dashboard_Case.png)
+
+### Dashboard de Compras
+
+Para la creacion de el dashboard de compras tomamos los objetos order y tomamos opportunities como compras, para luego crear un dashboard en el cual plasmar toda la informacion
+
+- Con la opcion de que el dashboard se vea desde la perspectiva de el viewer, el gerente de compras solo vera las opportunidades que haya realizado (compras)
+
+![](./images/Dashboard_Compras.png)
+
+## Creación de un mecanismo de respaldo y recuperación de datos
+
+Para esto usamos el data export service ya que nos permite seleccionar la frecuencia con la que vamos a exportar datos
+
+- Se deben realizar respaldos automáticos cada 24 horas.
+- La restauración de datos solo podrá ser ejecutada por el Administrador de Salesforce.
+- Todo intento de restauración deberá ser registrado en un log de auditoría.
+
+![](./images/Exportacion_Datos.png)
