@@ -421,4 +421,4 @@ A traves de la implementacion en la empresa ConstruFurgo pudimos demostrar un ma
 
 ## Link a las diapositivas
 
-https://docs.google.com/presentation/d/1xR-_aVOlo428K4L424cWWbO5ROoufGjcEwJJNkDYrqw/edit?usp=sharing
+[https://docs.google.com/presentation/d/1xR-_aVOlo428K4L424cWWbO5ROoufGjcEwJJNkDYrqw/edit?usp=sharing](https://docs.google.com/presentation/d/1ETMiQUgHFw9NQcj-m_9MEzgCMxIDMZjCjtFccUKtOY0/edit?usp=sharing)
