@@ -8,7 +8,6 @@ Se debe crear una organización de salesforce para la empresa construfurgo, ento
 
 - Dirección de la organización: https://orgfarm-7f237ed705-dev-ed.develop.my.salesforce.com/
 - Nombre de usuario: roajhon98213@agentforce.com
-- Contraseña: 33102108A
 
 ## Configuración General
 
@@ -143,21 +142,18 @@ Los usuarios fueron tomados de el csv users.csv de los archivos que fueron asign
 
 **Usuario:** carlosperez@construfurgo.tv
 
-**Contraseña:** 9MVeLqWF
 
 #### SalesManager:
 ![](./images/Usuario_SalesManager.png)
 
 **Usuario:** maría.gómez@construfurgo.tv
 
-**Contraseña:** MIoxHcy3
 
 #### ProcurementSpecialist.
 ![](./images/Usuario_ProcurementSpecialist.png)
 
 **Usuario:** anamartinez@construfurgo.tv	
 
-**Contraseña:** hKnP3ZGA
 
 ### Asignacion de permission set groups a usuarios:
 
