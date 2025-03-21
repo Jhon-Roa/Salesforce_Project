@@ -203,12 +203,36 @@ Al momento de crear la pagina para cumplir con las condiciones 2 y 3 se realizo 
 
 ![](./images/AppBuilder_CaseMetrics.png)
 
+## Auditorias
+
+### Registros de accesos fallidos con detalles de IP y usuario.
+Para poder acceder aqui lo que tenemos que hacer es crear un reporte en users y este tendra conectados los inicios de seccion
+![](./images/Auditoria_Login1.png)
+![](./images/Auditoria_Login2.png)
+
+### Cambios en la configuración de seguridad que afecten roles y permisos.
+Para esto tenemos acesso al setup audit trail en el cual podemos ver los cambios relevantes, habria que descargar los cambios de los ultimos 6 meses y entonces filtrar por los datos importantes, lamentablemente desde soportes no se puede realizar
+![](./images/Auditoria_AuditTrail.png)
+
+### Modificaciones en datos críticos como cuentas, oportunidades y reportes financieros
+Para esto activamos el seguimiento de el historial de el objeto tanto en cuentas como en opportunidades
+
+#### Opportunities  
+![](./images/Auditoria_Opportunity1.png)
+![](./images/Auditoria_Opportunity2.png)
+![](./images/Auditoria_Opportunity3.png)
+
+#### Accounts
+![](./images/Auditoria_Account1.png)
+![](./images/Auditoria_Account2.png)
+![](./images/Auditoria_Account3.png)
+
 ## Creación de objetos, campos y datos
 
 - Considero que para la configuración de esta organización, la gran mayoría de objetos estándar de SalesForce es suficiente, por ello para campos como lo es el id presente en los csv solo sera un campo nuevo a añadir
 - Como fue dicho propiamente antes, se crearan campos del tipo external id para hacer match en los datos
 
-## **¿Por que no usar objetos personalizados?**
+### **¿Por que no usar objetos personalizados?**
 
 La principal y mayor razón por la que no se usaron objetos personalizados es que muchos de los objetos estándar de salesforce tienen funcionalidades que no se pueden duplicar en objetos personalizados
 
@@ -325,6 +349,7 @@ Creamos el objeto Invoice para guardar las facturas
 ![](./images/Flow_Invoice1.png)
 ![](./images/Flow_Invoice2.png)
 
+
 ## Implementación de procesos de validación de datos en Salesforce
 
 En este punto tenemos que abarcar la validación de duplicados, email correctos y phone number correctos
@@ -389,3 +414,7 @@ Para esto usamos el data export service ya que nos permite seleccionar la frecue
 
 ![](./images/Mobile_Record.png)
 ![](./images/Mobile_User.png)
+
+## Conclusion
+
+A traves de la implementacion en la empresa ConstruFurgo pudimos demostrar un mayor rendimiento en los empleados al ver que realizaban sus tareas de forma eficiente gracias a la automatizacion de procesos.
