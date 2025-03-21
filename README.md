@@ -418,3 +418,7 @@ A traves de la implementacion en la empresa ConstruFurgo pudimos demostrar un ma
 - Las ventas aumentaron un 30%
 - La cola de trabajo se redujo en un 50%
 - La retencion aumento en un 100%
+
+## Link a las diapositivas
+
+https://docs.google.com/presentation/d/1xR-_aVOlo428K4L424cWWbO5ROoufGjcEwJJNkDYrqw/edit?usp=sharing
