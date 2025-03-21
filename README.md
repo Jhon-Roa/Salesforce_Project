@@ -414,3 +414,7 @@ Para esto usamos el data export service ya que nos permite seleccionar la frecue
 ## Conclusion
 
 A traves de la implementacion en la empresa ConstruFurgo pudimos demostrar un mayor rendimiento en los empleados al ver que realizaban sus tareas de forma eficiente gracias a la automatizacion de procesos.
+
+- Las ventas aumentaron un 30%
+- La cola de trabajo se redujo en un 50%
+- La retencion aumento en un 100%
